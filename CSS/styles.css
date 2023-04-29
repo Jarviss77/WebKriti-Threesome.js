@@ -1,0 +1,41 @@
+.d-block{
+    opacity: 0.5;
+}
+
+.carousel-item{
+    background-color: black;
+    position: relative;
+    text-align: center;
+}
+
+.intro-text{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    font-size: 100px;
+    color: white;
+}
+
+.intro-para{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    margin-right: 15%;
+
+}
+
+.logo{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    height: 100px;
+    width: 150px;
+}
+
+.carousel-indicators{
+    margin-bottom: 70px;
+}
