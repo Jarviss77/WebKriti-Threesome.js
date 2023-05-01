@@ -1,0 +1,182 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.csstransforms .cn-wrapper {
+  font-size:1em;
+  width: 26em;
+  height: 26em;
+  overflow: hidden;
+  position: fixed;
+  z-index: 1000;
+  bottom: -13em;
+  left: 50%;
+  border-radius: 50%;
+  margin-left: -13em;
+  transform: scale(0.1);
+  transition: all .3s ease;
+}
+/* class applied to the container via JavaScript that will scale the navigation up */
+.csstransforms .opened-nav {
+  border-radius: 50%;
+  transform: scale(1);
+}
+
+.intro {
+  text-align: left;
+  background: url("https://img.freepik.com/free-photo/vivid-blurred-colorful-background_58702-2655.jpg?w=996&t=st=1682746876~exp=1682747476~hmac=6fd94b743215d3659189932d1e16dd237817066e435f04ed5f528372169208e6");
+  background-size: cover;
+  font-family: 'Playfair Display', serif;
+}
+.girl{
+  padding-bottom: 69px;
+
+}
+.about_us{
+  padding-bottom: 122px;
+}
+
+
+.slogan {
+
+  color: #a89332;
+  padding-left: 12px;
+}
+
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+  padding-top: 0;
+}
+
+.extra {
+  font-size: small;
+  display: none;
+}
+.Vision{
+  padding-top: 125px;
+}
+
+.Mission:hover .extra {
+  display: inline-block;
+}
+.Vision:hover .extra {
+  display: inline-block;
+}
+.Vision:hover{
+  padding-top: 87px;
+}
+.core-values:hover .extra {
+  display: inline-block;
+}
+.Mission {
+  padding-top: 2px;
+}
+.core-values
+{
+  padding-top: 2px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-size: 8rem;
+}
+
+.roller {
+  height: 4.125rem;
+  line-height: 4rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #1D3557;
+}
+
+
+#spare-time {
+  font-size: 0.85rem;
+  font-style: italic;
+  letter-spacing: 0.5rem;
+  margin-top: 0;
+  color: black;
+
+}
+
+.roller #rolltext {
+  position: absolute;
+  top: 0;
+  animation: slide 10s infinite;
+  font-size: 1.5rem;
+  font-family: 'Dancing Script', cursive;
+}
+
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+
+  25% {
+    top: -4rem;
+  }
+
+  50% {
+    top: -8rem;
+  }
+
+  72.5% {
+    top: -12.25rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #F1FAEE;
+    font-size: 2.125rem;
+  }
+
+  .roller {
+    height: 2.6rem;
+    line-height: 2.125rem;
+  }
+
+  #spare-time {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .roller #rolltext {
+    animation: slide-mob 5s infinite;
+  }
+
+  @keyframes slide-mob {
+    0% {
+      top: 0;
+    }
+
+    25% {
+      top: -2.125rem;
+    }
+
+    50% {
+      top: -4.25rem;
+    }
+
+    72.5% {
+      top: -6.375rem;
+    }
+  }
+}
