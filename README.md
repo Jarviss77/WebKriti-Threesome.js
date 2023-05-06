@@ -24,7 +24,7 @@ A team competition held at IIIT Allahabad to make a fully functional website for
 
 ## References
 - [Download and install the latest version of Git.](https://git-scm.com/downloads)
-- [Download and install the latest version of Nodejs](https://nodejs.org/en)
+- [Download and install the latest version of Nodejs.](https://nodejs.org/en)
 
 ## Team Name
 Threesome.js
