@@ -30,5 +30,5 @@ A team competition held at IIIT Allahabad to make a fully functional website for
 Threesome.js
 
 ## Contributors
-* Jarviss77
-* 0mBudsMan
+* [Jarviss77](https://github.com/Jarviss77)
+* [0mBudsMan](https://github.com/0mBudsMan)
