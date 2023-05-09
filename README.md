@@ -19,7 +19,7 @@ A team competition held at IIIT Allahabad to make a fully functional website for
 * Change drive to the location where you want your project to be copied.
 * Clone it to your local setup by using command git clone ```<repo link>```.
 * Once cloned, Run the following command in the root directory of the project ```npm install```.
-* After the process is completed, run the command ```nodemon form.js```.
+* After the process is completed, run the command ```node form.js```.
 * The website will be live on ```localhost:3000```.
 
 ## References
